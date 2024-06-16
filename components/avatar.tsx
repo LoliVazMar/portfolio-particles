@@ -7,7 +7,7 @@ const Avatar = () => {
   return (
     <MotionTransition
       position="bottom"
-      className="bottom-0 right-0 hidden md:inline-block md:absolute"
+      className="bottom-0 right-0 hidden md:inline-block md:fixed"
     >
       <Image
         src="/avatar-1.png"

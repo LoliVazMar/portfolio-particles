@@ -25,7 +25,7 @@ export const socialNetworks = [
   {
     id: 2,
     logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
+    src: "https://www.linkedin.com/in/loli-vazquez-martinez/",
   },
   {
     id: 3,
@@ -80,64 +80,70 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Frontend Developer",
-    subtitle: "TechSolutions",
+    title: "Senior Frontend Developer",
+    subtitle: "Life5",
     description:
-      "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-    date: "Nov 2023 ",
+      "Diseño, Maquetación y Desarrollo de Aplicación Web desde 0 para una startup. TL y especialista en Maquetación.",
+    technologies:
+      "React, HTML, SCSS, Tailwind, Wordpress, Twig, GitHub, Figma, Jira",
+    date: "Nov 2021 Oct 2023 ",
   },
   {
     id: 2,
-    title: "Creador de Experiencias Digitales",
-    subtitle: "PixelCrafters",
+    title: "Frontend Developer",
+    subtitle: "Plexus",
     description:
-      "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-    date: "May 2021",
+      "Desarrollo de múltiples Aplicaciones Web para distintos proyectos en una consultoría. Adaptándome a cada proyecto he trabajado con diferentes tecnologías, con equipos de diferentes tamaños y con diferentes estructuras de trabajo. Dichos proyectos eran de empresas como AirEuropa, Hotusa, Sergas, Xunta de Galicia, OkCars, Hoteles Barceló, etc. TL y especialista en Maquetación.",
+    technologies:
+      "HTML, CSS, SCSS, SASS, LESS, Bootstrap, Stylus, Javascript, Angular, VUE, GitHub, Bitbucket, Figma, Photoshop, AdobeXD, Jira, Redmine",
+    date: "Mayo 2018 Abr 2021",
   },
   {
     id: 3,
-    title: "Especialista en Desarrollo Frontend",
-    subtitle: "CodeForge Solutions",
+    title: "Frontend Developer",
+    subtitle: "Supercomp Digital",
     description:
-      "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-    date: "Ago 2019",
+      "Programación .NET de página de gestión interna de los productos de la empresa. Desarrollo Web.",
+    technologies: ".NET, HTML, CSS",
+    date: "Sept 2017 Nov 2017",
   },
   {
     id: 4,
-    title: "Prácticas Grado",
-    subtitle: "WebWizards Inc.",
+    title: "Software Developer",
+    subtitle: "Wiretec Diamant",
     description:
-      "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-    date: "Mar 2018",
+      "Desarrollo de ERP para la empresa basado en odoo. Diseño, Maquetación y Desarrollo Web para diferentes empresas y clínicas locales. Soporte de Sistemas informáticos y Redes en oficina.",
+    technologies: "ERP, Odoo, Java, HTML, CSS",
+    date: "Sept 2016 Mayo 2017",
   },
 ];
 
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
+    endCounter: 8,
     text: "Años de experiencia",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
+    endCounter: 20,
     text: "Clientes satisfechos",
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
+    endCounter: 40,
     text: "Proyectos finalizados",
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 3,
-    endCounter: 30,
-    text: "Premios ganadores",
+    endCounter: 10,
+    text: "Diseños creados",
     lineRight: false,
     lineRightMobile: false,
   },
@@ -232,50 +238,5 @@ export const dataPortfolio = [
     image: "/image-8.jpg",
     urlGithub: "#!",
     urlDemo: "#!",
-  },
-];
-
-export const dataTestimonials = [
-  {
-    id: 1,
-    name: "George Snow",
-    description:
-      "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-    imageUrl: "/profile1.png",
-  },
-  {
-    id: 2,
-    name: "Juan Pérez",
-    description:
-      "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-    imageUrl: "/profile2.png",
-  },
-  {
-    id: 3,
-    name: "María García",
-    description:
-      "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-    imageUrl: "/profile3.png",
-  },
-  {
-    id: 4,
-    name: "Laura Snow",
-    description:
-      "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-    imageUrl: "/profile4.png",
-  },
-  {
-    id: 5,
-    name: "Carlos Sánchez",
-    description:
-      "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-    imageUrl: "/profile5.png",
-  },
-  {
-    id: 6,
-    name: "Antonio Martínez",
-    description:
-      "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-    imageUrl: "/profile6.png",
   },
 ];
