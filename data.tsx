@@ -4,43 +4,34 @@ import {
   HomeIcon,
   UserRound,
   Linkedin,
-  Twitter,
   Rss,
   Twitch,
-  Youtube,
   Crop,
   Pencil,
   Computer,
   Book,
   Rocket,
   Speech,
+  Github,
+  Mail,
 } from "lucide-react";
+import { title } from "process";
 
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 2,
     logo: <Linkedin size={30} strokeWidth={1} />,
     src: "https://www.linkedin.com/in/loli-vazquez-martinez/",
   },
   {
+    id: 2,
+    logo: <Github size={30} strokeWidth={1} />,
+    src: "https://github.com/LoliVazMar?tab=repositories",
+  },
+  {
     id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Mail size={30} strokeWidth={1} />,
+    src: "mailto:lolyandrea@gmail.com",
   },
 ];
 
@@ -93,7 +84,7 @@ export const dataAboutPage = [
     title: "Frontend Developer",
     subtitle: "Plexus",
     description:
-      "Desarrollo de múltiples Aplicaciones Web para distintos proyectos en una consultoría. Adaptándome a cada proyecto he trabajado con diferentes tecnologías, con equipos de diferentes tamaños y con diferentes estructuras de trabajo. Dichos proyectos eran de empresas como AirEuropa, Hotusa, Sergas, Xunta de Galicia, OkCars, Hoteles Barceló, etc. TL y especialista en Maquetación.",
+      "Desarrollo de múltiples Aplicaciones Web para distintos proyectos en una consultoría. Adaptándome a cada proyecto he trabajado con diferentes tecnologías, con equipos de diferentes tamaños y con diferentes estructuras de trabajo. Estos proyectos eran para clientes como AirEuropa, Hotusa, Sergas, Xunta de Galicia, OkCars, Hoteles Barceló, etc. TL y especialista en Maquetación.",
     technologies:
       "HTML, CSS, SCSS, SASS, LESS, Bootstrap, Stylus, Javascript, Angular, VUE, GitHub, Bitbucket, Figma, Photoshop, AdobeXD, Jira, Redmine",
     date: "Mayo 2018 Abr 2021",
@@ -115,6 +106,59 @@ export const dataAboutPage = [
       "Desarrollo de ERP para la empresa basado en odoo. Diseño, Maquetación y Desarrollo Web para diferentes empresas y clínicas locales. Soporte de Sistemas informáticos y Redes en oficina.",
     technologies: "ERP, Odoo, Java, HTML, CSS",
     date: "Sept 2016 Mayo 2017",
+  },
+];
+
+export const technologies = [
+  {
+    id: 1,
+    title: "React",
+    image: "/icons-react-color.png",
+  },
+  {
+    id: 2,
+    title: "Angular",
+    image: "/icons-angular-color.png",
+  },
+  {
+    id: 3,
+    title: "Astro",
+    image: "/icons-astro-color.png",
+  },
+  {
+    id: 4,
+    title: "JavaScript",
+    image: "/icons-js-color.png",
+  },
+  {
+    id: 5,
+    title: "HTML5",
+    image: "/icons-html-color.png",
+  },
+  {
+    id: 6,
+    title: "CSS3",
+    image: "/icons-css-color.png",
+  },
+  {
+    id: 7,
+    title: "Tailwind",
+    image: "/icons-tailwind-color.png",
+  },
+  {
+    id: 8,
+    title: "Bootstrap",
+    image: "/icon-bootstrap-color.png",
+  },
+  {
+    id: 9,
+    title: "Sass",
+    image: "/icons-sass-color.png",
+  },
+  {
+    id: 10,
+    title: "Less",
+    image: "/icon-less-color.png",
   },
 ];
 
