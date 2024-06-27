@@ -20,7 +20,7 @@ const TimeLine = () => {
                                         after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 
                                         after:translate-y-1.5"
               >
-                <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase top-[52px] w-20 h-auto text-center mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">
+                <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase top-[52px] w-20 h-auto text-center mb-3 sm:mb-0 text-emerald-900 bg-emerald-100 rounded-full">
                   {data.date}
                 </time>
                 <div className="text-xl font-bold text-gray-400">

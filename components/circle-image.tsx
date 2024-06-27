@@ -8,6 +8,7 @@ const CircleImage = () => {
         width={300}
         height={300}
         alt="Circle"
+        loading="eager"
         className="w-full h-full"
       ></Image>
     </div>
