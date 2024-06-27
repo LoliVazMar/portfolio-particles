@@ -12,10 +12,10 @@ const Introduction = () => {
         <Image
           src="/home-4.png"
           priority
-          width="1000"
-          height="1000"
-          alt="Profile pic"
-          className="max-w-[70%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1 drop-shadow-dark"
+          width={800}
+          height={800}
+          alt="Imagen de perfil con IA"
+          className="max-w-[100%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1 drop-shadow-dark"
         />
         <div className="flex flex-col py-5 order-1 justify-center items-center md:items-start md:row-start-2 md:order-2 md:justify-start">
           <h1 className="mb-5 text-2xl text-secondary font-bold leading-tight text-center md:text-left md:text-4xl">
@@ -27,14 +27,7 @@ const Introduction = () => {
           </p>
           <div className="flex items-center justify-center gap-7 flex-wrap md:justify-start max-w-72">
             {technologies.map(({ title, image, id }) => (
-              <Image
-                key={id}
-                src={image}
-                width={30}
-                height={30}
-                alt={title}
-                className=""
-              />
+              <Image key={id} src={image} width={30} height={30} alt={title} />
             ))}
           </div>
         </div>
