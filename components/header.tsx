@@ -10,7 +10,10 @@ const Header = () => {
     >
       <header>
         <div className="container justify-between max-w-6xl mx-auto md:flex">
-          <Link href="/">
+          <Link
+            rel="canonical"
+            href="https://lolivm-portfolio-particles.netlify.app/"
+          >
             <h1 className="my-3 text-4xl font-bold text-center md:text-left">
               Loli
               <span className="text-secondary">Dev</span>

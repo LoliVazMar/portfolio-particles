@@ -37,23 +37,9 @@ const Introduction = () => {
               />
             ))}
           </div>
-          {/* <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10">
-            <Link
-              href="/about-me"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50"
-            >
-              Experiencia
-            </Link>
-            <Link
-              href="/about-me"
-              className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary/50"
-            >
-              Proyectos
-            </Link>
-          </div> */}
         </div>
         <div className="py-5 order-3 md:row-start-3">
-          <h1 className="mb-5 text-lg leading-tight text-center md:text-left md:text-2xl">
+          <h2 className="mb-5 text-lg leading-tight text-center md:text-left md:text-2xl">
             ¿Quieres crear
             <TypeAnimation
               sequence={[
@@ -71,7 +57,7 @@ const Introduction = () => {
               repeat={Infinity}
               className="font-bold text-secondary"
             />
-          </h1>
+          </h2>
           <p className="mx-auto mb-5 text-lg text-center md:text-left md:mx-0 md:mb-8">
             Trabajemos juntos
           </p>
