@@ -15,7 +15,7 @@ const Introduction = () => {
           width="1000"
           height="1000"
           alt="Profile pic"
-          className="max-w-[70%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1"
+          className="max-w-[70%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1 drop-shadow-dark"
         />
         <div className="flex flex-col py-5 order-1 justify-center items-center md:items-start md:row-start-2 md:order-2 md:justify-start">
           <h1 className="mb-5 text-2xl text-secondary font-bold leading-tight text-center md:text-left md:text-4xl">

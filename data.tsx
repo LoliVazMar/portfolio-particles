@@ -48,24 +48,24 @@ export const itemsNavbar = [
     icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
     link: "/about-me",
   },
-  {
-    id: 3,
-    title: "Book",
-    icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-    link: "/services",
-  },
+  // {
+  //   id: 3,
+  //   title: "Book",
+  //   icon: <BookText size={25} color="#fff" strokeWidth={1} />,
+  //   link: "/services",
+  // },
   {
     id: 4,
-    title: "Target",
+    title: "Proyects",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
-    link: "/portfolio",
+    link: "/proyects",
   },
-  {
-    id: 5,
-    title: "Home",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
-  },
+  // {
+  //   id: 5,
+  //   title: "Contact",
+  //   icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+  //   link: "/contact",
+  // },
 ];
 
 export const dataAboutPage = [
@@ -122,8 +122,8 @@ export const technologies = [
   },
   {
     id: 3,
-    title: "Astro",
-    image: "/icons-astro-color.png",
+    title: "VUE",
+    image: "/icons-vue-color.png",
   },
   {
     id: 4,
@@ -229,58 +229,50 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
+    title: "Web Getlife",
     image: "/image-1.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 2,
     title: "Desarrollo Web Ágil",
     image: "/image-2.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 3,
     title: "Estrategias Web",
     image: "/image-3.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 4,
     title: "Ideas Creativas",
     image: "/image-4.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 5,
     title: "Webs Impactantes",
     image: "/image-5.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 6,
     title: "Web Dinámica",
     image: "/image-6.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 7,
     title: "Dark Web ",
     image: "/image-7.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
   {
     id: 8,
     title: "E-commerce web",
     image: "/image-8.jpg",
-    urlGithub: "#!",
     urlDemo: "#!",
   },
 ];

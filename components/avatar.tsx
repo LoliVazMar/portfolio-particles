@@ -13,7 +13,7 @@ const Avatar = () => {
         src="/avatar-1.png"
         width={300}
         height={300}
-        className="w-full h-full"
+        className="w-full h-full drop-shadow-dark"
         alt="Avatar"
       ></Image>
     </MotionTransition>
