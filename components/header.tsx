@@ -20,11 +20,12 @@ const Header = () => {
             </h1>
           </Link>
           <div className="flex items-center justify-center gap-7">
-            {socialNetworks.map(({ logo, src, id }) => (
+            {socialNetworks.map(({ logo, src, id, label }) => (
               <Link
                 key={id}
                 href={src}
                 target="_blank"
+                aria-label={label}
                 className="transition-all duration-300 hover:text-secondary"
               >
                 {logo}

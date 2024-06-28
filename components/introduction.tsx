@@ -15,13 +15,13 @@ const Introduction = () => {
           width={800}
           height={800}
           alt="Imagen de perfil con IA"
-          className="max-w-[100%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1 drop-shadow-dark"
+          className="max-w-[80%] justify-self-center order-2 hidden md:block md:row-start-2 md:row-end-4 md:order-1 drop-shadow-dark"
         />
         <div className="flex flex-col py-5 order-1 justify-center items-center md:items-start md:row-start-2 md:order-2 md:justify-start">
           <h1 className="mb-5 text-2xl text-secondary font-bold leading-tight text-center md:text-left md:text-4xl">
             Loli Vázquez Martínez
           </h1>
-          <p className="mx-auto mb-5 text-xl text-center md:text-left md:mx-0 md:mb-8">
+          <p className="mx-auto mb-5 text-xl text-center sm:mx-20 md:text-left md:mx-0 md:mb-8">
             Desarrolladora frontend, creadora de contenido a medida, funcional y
             accesible.
           </p>

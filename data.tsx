@@ -22,16 +22,19 @@ export const socialNetworks = [
     id: 1,
     logo: <Linkedin size={30} strokeWidth={1} />,
     src: "https://www.linkedin.com/in/loli-vazquez-martinez/",
+    label: "Linkedin",
   },
   {
     id: 2,
     logo: <Github size={30} strokeWidth={1} />,
     src: "https://github.com/LoliVazMar?tab=repositories",
+    label: "Github",
   },
   {
     id: 3,
     logo: <Mail size={30} strokeWidth={1} />,
     src: "mailto:lolyandrea@gmail.com",
+    label: "Email",
   },
 ];
 
@@ -41,12 +44,14 @@ export const itemsNavbar = [
     title: "Home",
     icon: <HomeIcon size={25} color="#fff" strokeWidth={1} />,
     link: "/",
+    label: "Inicio",
   },
   {
     id: 2,
     title: "User",
     icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
     link: "/about-me",
+    label: "Experiencias",
   },
   // {
   //   id: 3,
@@ -59,6 +64,7 @@ export const itemsNavbar = [
     title: "Proyects",
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/proyects",
+    label: "Proyectos",
   },
   // {
   //   id: 5,
@@ -74,7 +80,7 @@ export const dataAboutPage = [
     title: "Senior Frontend Developer",
     subtitle: "Life5",
     description:
-      "Diseño, Maquetación y Desarrollo de Aplicación Web desde 0 para una startup. TL y especialista en Maquetación.",
+      "Diseño, Maquetación y Desarrollo de Aplicación Web desde 0 para una startup, participando en todo el ciclo de vida del proyecto, desde diseño, implementación y mantenimiento. TL y especialista en Maquetación.",
     technologies:
       "React, HTML, SCSS, Tailwind, Wordpress, Twig, GitHub, Figma, Jira",
     date: "Nov 2021 Oct 2023 ",
@@ -193,86 +199,56 @@ export const dataCounter = [
   },
 ];
 
-export const serviceData = [
-  {
-    icon: <Crop />,
-    title: "Branding",
-    description:
-      "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-  },
-  {
-    icon: <Pencil />,
-    title: "Diseño web",
-    description:
-      "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-  },
-  {
-    icon: <Computer />,
-    title: "Desarrollo web",
-    description:
-      "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
-  },
-  {
-    icon: <Book />,
-    title: "Copywriting",
-    description:
-      "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
-  },
-  {
-    icon: <Rocket />,
-    title: "SEO",
-    description:
-      "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-  },
-];
-
-export const dataPortfolio = [
+export const dataProyects = [
   {
     id: 1,
-    title: "Web Getlife",
-    image: "/image-1.jpg",
-    urlDemo: "#!",
+    title: "Getlife",
+    description:
+      "Diseño, Maquetación y Desarrollo de Aplicación Web desde 0 para una startup, participando en todo el ciclo de vida del proyecto, desde diseño, implementación y mantenimiento.",
+    image: "/getlife.jpg",
+    url: "https://life5.es/",
+    textButton: "Go Live",
   },
   {
     id: 2,
-    title: "Desarrollo Web Ágil",
-    image: "/image-2.jpg",
-    urlDemo: "#!",
+    title: "Hoteles Eurostars",
+    description:
+      "Mantenimiento de todas las webs del grupo hotelero Hotusa, realizando correcciones y actualizaciones para las webs de los hoteles Eurostars a nivel mundial",
+    image: "/eurostars.jpg",
+    url: "https://www.eurostarshotels.com/eurostars-madrid-tower.html",
+    textButton: "Go Live",
   },
   {
     id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
-    urlDemo: "#!",
+    title: "AirEuropa",
+    description:
+      "Participación en el proyecto de migración, mantenimiento y actualizacion de la web de AirEuropa.",
+    image: "/aireuropa.jpg",
+    url: "https://www.aireuropa.com/es/es/home",
+    textButton: "Go Live",
   },
-  {
-    id: 4,
-    title: "Ideas Creativas",
-    image: "/image-4.jpg",
-    urlDemo: "#!",
-  },
-  {
-    id: 5,
-    title: "Webs Impactantes",
-    image: "/image-5.jpg",
-    urlDemo: "#!",
-  },
-  {
-    id: 6,
-    title: "Web Dinámica",
-    image: "/image-6.jpg",
-    urlDemo: "#!",
-  },
-  {
-    id: 7,
-    title: "Dark Web ",
-    image: "/image-7.jpg",
-    urlDemo: "#!",
-  },
-  {
-    id: 8,
-    title: "E-commerce web",
-    image: "/image-8.jpg",
-    urlDemo: "#!",
-  },
+  // {
+  //   id: 4,
+  //   title: "Ideas Creativas",
+  //   description: "",
+  //   image: "/image-4.jpg",
+  //   url: "#!",
+  //   textButton: "Demo",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Webs Impactantes",
+  //   description: "",
+  //   image: "/image-5.jpg",
+  //   url: "#!",
+  //   textButton: "Demo",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Web Dinámica",
+  //   description: "",
+  //   image: "/image-6.jpg",
+  //   url: "#!",
+  //   textButton: "Demo",
+  // },
 ];

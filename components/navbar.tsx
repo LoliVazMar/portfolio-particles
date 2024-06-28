@@ -22,7 +22,9 @@ const Navbar = () => {
                 router === item.link && "bg-secondary"
               }`}
             >
-              <Link href={item.link}>{item.icon}</Link>
+              <Link href={item.link} aria-label={item.label}>
+                {item.icon}
+              </Link>
             </div>
           ))}
         </div>
