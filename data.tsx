@@ -4,16 +4,11 @@ import {
   HomeIcon,
   UserRound,
   Linkedin,
-  Rss,
-  Twitch,
-  Crop,
-  Pencil,
-  Computer,
   Book,
-  Rocket,
   Speech,
   Github,
   Mail,
+  FileDown,
 } from "lucide-react";
 import { title } from "process";
 
@@ -34,6 +29,12 @@ export const socialNetworks = [
     id: 3,
     logo: <Mail size={30} strokeWidth={1} />,
     src: "mailto:lolyandrea@gmail.com",
+    label: "Email",
+  },
+  {
+    id: 4,
+    logo: <FileDown size={30} strokeWidth={1} />,
+    src: "/Loli_CV-2024.pdf",
     label: "Email",
   },
 ];
@@ -222,7 +223,7 @@ export const dataProyects = [
     id: 3,
     title: "AirEuropa",
     description:
-      "Participación en el proyecto de migración, mantenimiento y actualizacion de la web de AirEuropa.",
+      "Participación en el proyecto de migración, mantenimiento y actualizacion de la web de la compañia aerea AirEuropa.",
     image: "/aireuropa.jpg",
     url: "https://www.aireuropa.com/es/es/home",
     textButton: "Go Live",

@@ -33,7 +33,7 @@ const Introduction = () => {
         </div>
         <div className="py-5 order-3 md:row-start-3">
           <h2 className="mb-5 text-lg leading-tight text-center md:text-left md:text-2xl">
-            ¿Quieres crear
+            ¿Quieres darle vida a
             <TypeAnimation
               sequence={[
                 " un proyecto?",

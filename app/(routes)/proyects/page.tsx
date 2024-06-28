@@ -10,7 +10,7 @@ const ProyectsPage = () => {
       <TransitionPage />
       <CircleImage />
       <div className="flex flex-col justify-center h-full pb-32">
-        <h2 className="text-2xl leading-tight text-center ms:text-4xl md:mb-5">
+        <h2 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
           Algunos de{" "}
           <span className="text-secondary font-bold">mis trabajos</span>
         </h2>
