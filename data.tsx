@@ -35,7 +35,7 @@ export const socialNetworks = [
     id: 4,
     logo: <FileDown size={30} strokeWidth={1} />,
     src: "/Loli_CV-2024.pdf",
-    label: "Email",
+    label: "Descarga CV",
   },
 ];
 
@@ -228,14 +228,15 @@ export const dataProyects = [
     url: "https://www.aireuropa.com/es/es/home",
     textButton: "Go Live",
   },
-  // {
-  //   id: 4,
-  //   title: "Ideas Creativas",
-  //   description: "",
-  //   image: "/image-4.jpg",
-  //   url: "#!",
-  //   textButton: "Demo",
-  // },
+  {
+    id: 4,
+    title: "Scrum Board",
+    description:
+      "Proyecto personal creando un sencillo tablero de tareas al estilo de trello, que nos permite crear tableros con tareas y arrastrarlas a las diferentes columnas.",
+    image: "/scrum-board3.jpg",
+    url: "https://scrum-board-lolidev.netlify.app/",
+    textButton: "Go Demo",
+  },
   // {
   //   id: 5,
   //   title: "Webs Impactantes",

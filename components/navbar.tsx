@@ -18,11 +18,12 @@ const Navbar = () => {
           {itemsNavbar.map((item) => (
             <div
               key={item.id}
+              title={item.label}
               className={`px-3 py-2 transition duration-150 rounded-full cursor-pointer hover:bg-secondary ${
                 router === item.link && "bg-secondary"
               }`}
             >
-              <Link href={item.link} aria-label={item.label}>
+              <Link href={item.link} title={item.label} aria-label={item.label}>
                 {item.icon}
               </Link>
             </div>

@@ -25,6 +25,7 @@ const Header = () => {
                 key={id}
                 href={src}
                 target="_blank"
+                title={label}
                 aria-label={label}
                 className="transition-all duration-300 hover:text-secondary"
               >

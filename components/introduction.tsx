@@ -27,7 +27,14 @@ const Introduction = () => {
           </p>
           <div className="flex items-center justify-center gap-7 flex-wrap md:justify-start max-w-72">
             {technologies.map(({ title, image, id }) => (
-              <Image key={id} src={image} width={30} height={30} alt={title} />
+              <Image
+                key={id}
+                src={image}
+                width={30}
+                height={30}
+                alt={title}
+                title={title}
+              />
             ))}
           </div>
         </div>
