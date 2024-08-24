@@ -209,48 +209,158 @@ export const dataProyects = [
     image: "/getlife.jpg",
     url: "https://life5.es/",
     textButton: "Go Live",
+    technologies: [
+      {
+        id: 1,
+        title: "React",
+        src: "/icons-react-color.png",
+      },
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "Tailwind",
+        src: "/icons-tailwind-color.png",
+      },
+    ],
   },
   {
     id: 2,
     title: "Hoteles Eurostars",
     description:
-      "Mantenimiento de todas las webs del grupo hotelero Hotusa, realizando correcciones y actualizaciones para las webs de los hoteles Eurostars a nivel mundial",
+      "Mantenimiento de todas las webs del grupo hotelero Hotusa, realizando correcciones y actualizaciones para las webs de los hoteles Eurostars a nivel mundial.",
     image: "/eurostars.jpg",
     url: "https://www.eurostarshotels.com/eurostars-madrid-tower.html",
     textButton: "Go Live",
+    technologies: [
+      {
+        id: 1,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 2,
+        title: "CSS",
+        src: "/icons-css-color.png",
+      },
+      {
+        id: 3,
+        title: "JavaScript",
+        src: "/icons-js-color.png",
+      },
+    ],
   },
   {
     id: 3,
     title: "AirEuropa",
     description:
-      "Participación en el proyecto de migración, mantenimiento y actualizacion de la web de la compañia aerea AirEuropa.",
+      "Participación en el proyecto de migración, mantenimiento y actualizacion de la web oficial de la compañia aerea AirEuropa.",
     image: "/aireuropa.jpg",
     url: "https://www.aireuropa.com/es/es/home",
     textButton: "Go Live",
+    technologies: [
+      {
+        id: 1,
+        title: "VUE",
+        src: "/icons-vue-color.png",
+      },
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "SASS",
+        src: "/icons-sass-color.png",
+      },
+    ],
   },
   {
     id: 4,
+    title: "Portfolio",
+    description:
+      "Este portfolio. Una carta de presentación diseñado y creado por mi, donde podrás conocerme un poco, mi formación, mis experiencias y algunos de mis proyectos.",
+    image: "/portfolio.jpg",
+    url: "https://scrum-board-lolidev.netlify.app/",
+    urlCode: "https://github.com/LoliVazMar/portfolio-particles",
+    textButton: "Demo",
+    textButtonCode: "Code",
+    technologies: [
+      {
+        id: 1,
+        title: "React",
+        src: "/icons-react-color.png",
+      },
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "Tailwind",
+        src: "/icons-tailwind-color.png",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Scrum Board",
     description:
       "Proyecto personal creando un sencillo tablero de tareas al estilo de trello, que nos permite crear tableros con tareas y arrastrarlas a las diferentes columnas.",
     image: "/scrum-board3.jpg",
     url: "https://scrum-board-lolidev.netlify.app/",
-    textButton: "Go Demo",
+    urlCode: "https://github.com/LoliVazMar/Scrum-Board",
+    textButton: "Demo",
+    textButtonCode: "Code",
+    technologies: [
+      {
+        id: 1,
+        title: "VUE",
+        src: "/icons-vue-color.png",
+      },
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "CSS",
+        src: "/icons-css-color.png",
+      },
+    ],
   },
-  // {
-  //   id: 5,
-  //   title: "Webs Impactantes",
-  //   description: "",
-  //   image: "/image-5.jpg",
-  //   url: "#!",
-  //   textButton: "Demo",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Web Dinámica",
-  //   description: "",
-  //   image: "/image-6.jpg",
-  //   url: "#!",
-  //   textButton: "Demo",
-  // },
+  {
+    id: 6,
+    title: "API + Axios",
+    description:
+      "Pequeño proyecto de prueba técnica, que consume datos de una API usando la libreria Axios en React.",
+    image: "/React Axios.jpg",
+    url: "https://react-apiaxios.netlify.app/",
+    urlCode: "https://github.com/LoliVazMar/react-api-axios",
+    textButton: "Demo",
+    textButtonCode: "Code",
+    technologies: [
+      {
+        id: 1,
+        title: "React",
+        src: "/icons-react-color.png",
+      },
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "SASS",
+        src: "/icons-sass-color.png",
+      },
+    ],
+  },
 ];
