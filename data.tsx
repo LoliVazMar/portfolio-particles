@@ -339,7 +339,7 @@ export const dataProyects = [
     id: 6,
     title: "Pokemons Starters",
     description:
-      "Proyecto personal creado unicamente con HTML, SASS y JavaScript, en el cual introduzco animaciones y efectos CSS como animaciones de efecto 3D y el efecto Glassphormist.",
+      "Proyecto personal creado con HTML, SASS y JavaScript. Introduzco animaciones y efectos CSS, como animacion 3D y efecto Glassmorphism.",
     image: "/pokem.png",
     url: "https://pokemonstarters.netlify.app/",
     urlCode: "https://github.com/LoliVazMar/pokemonstarter",
