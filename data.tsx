@@ -335,32 +335,32 @@ export const dataProyects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: "API + Axios",
-    description:
-      "Pequeño proyecto de prueba técnica, que consume datos de una API usando la libreria Axios en React.",
-    image: "/React Axios.jpg",
-    url: "https://react-apiaxios.netlify.app/",
-    urlCode: "https://github.com/LoliVazMar/react-api-axios",
-    textButton: "Demo",
-    textButtonCode: "Code",
-    technologies: [
-      {
-        id: 1,
-        title: "React",
-        src: "/icons-react-color.png",
-      },
-      {
-        id: 2,
-        title: "HTML",
-        src: "/icons-html-color.png",
-      },
-      {
-        id: 3,
-        title: "SASS",
-        src: "/icons-sass-color.png",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: "API + Axios",
+  //   description:
+  //     "Pequeño proyecto de prueba técnica, que consume datos de una API usando la libreria Axios en React.",
+  //   image: "/React Axios.jpg",
+  //   url: "https://react-apiaxios.netlify.app/",
+  //   urlCode: "https://github.com/LoliVazMar/react-api-axios",
+  //   textButton: "Demo",
+  //   textButtonCode: "Code",
+  //   technologies: [
+  //     {
+  //       id: 1,
+  //       title: "React",
+  //       src: "/icons-react-color.png",
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "HTML",
+  //       src: "/icons-html-color.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       title: "SASS",
+  //       src: "/icons-sass-color.png",
+  //     },
+  //   ],
+  // },
 ];

@@ -20,6 +20,11 @@ main {
   }
 }
 
+/* .proyect_card:hover img {
+  transform: scaleX(1.11) scaleY(1.16);
+  transition: all 0.4s ease-out;
+} */
+
 /* .proyect_card_technologies img {
   height: fit-content;
 }
