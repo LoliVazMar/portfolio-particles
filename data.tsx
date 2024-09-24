@@ -337,6 +337,29 @@ export const dataProyects = [
   },
   {
     id: 6,
+    title: "Only CSS Gallery",
+    description:
+      "Creación de una galería de imágenes con efecto 3D usando solo HTML5 y SCSS. Se incluyen varios efectos css como máscaras y 3D.",
+    image: "/gallery1.png",
+    url: "https://cssonlygallery3d.netlify.app/",
+    urlCode: "https://github.com/LoliVazMar/onlycssgallery",
+    textButton: "Demo",
+    textButtonCode: "Code",
+    technologies: [
+      {
+        id: 2,
+        title: "HTML",
+        src: "/icons-html-color.png",
+      },
+      {
+        id: 3,
+        title: "SASS",
+        src: "/icons-sass-color.png",
+      },
+    ],
+  },
+  {
+    id: 7,
     title: "Pokemons Starters",
     description:
       "Proyecto personal creado con HTML, SASS y JavaScript. Introduzco animaciones y efectos CSS, como animacion 3D y efecto Glassmorphism.",

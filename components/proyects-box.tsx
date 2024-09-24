@@ -14,7 +14,7 @@ const ProyectsBox = (props: { data: any }) => {
         alt={data.title}
         width={400}
         height={400}
-        className="w-full md:w-[400px] rounded-2xl h-auto md:h-[200px] aspect-[4/3]"
+        className="w-full md:w-[400px] rounded-2xl h-auto md:h-[200px] aspect-[4/3] object-cover"
       />
       <h3 className="my-4 text-xl">{data.title}</h3>
       <p>{data.description}</p>
