@@ -340,7 +340,7 @@ export const dataProyects = [
     title: "Only CSS Gallery",
     description:
       "Creación de una galería de imágenes con efecto 3D usando solo HTML5 y SCSS. Se incluyen varios efectos css como máscaras y 3D.",
-    image: "/gallery1.png",
+    image: "/gallery.png",
     url: "https://cssonlygallery3d.netlify.app/",
     urlCode: "https://github.com/LoliVazMar/onlycssgallery",
     textButton: "Demo",
